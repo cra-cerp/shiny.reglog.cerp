@@ -1,0 +1,16 @@
+^shiny\.reglog\.Rproj$
+^\.Rproj\.user$
+^README\.Rmd$
+^cache$
+^img$
+^examples$
+^tests$
+^\.secrets$
+^test$
+^LICENSE\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.covrignore$
+^codecov\.yml$
+^\.github$
