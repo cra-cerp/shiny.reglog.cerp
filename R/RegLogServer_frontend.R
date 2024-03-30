@@ -228,7 +228,6 @@ RegLogServer_frontend <- function(
           title = h2(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_1")),
           description = p(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_2")),
           description2 = p(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_3")),
-          # CERP changed - make username the same as the email
             #tags$ul(tags$li(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_3")),
             #        tags$li(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_4")))),
           # id_input = textInput(
@@ -327,7 +326,7 @@ RegLogServer_frontend <- function(
           title2 = h2(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="reset_ui_reset_pw")),
           desc2 = p(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="reset_ui_3")),
           desc3 = p(RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="register_ui_3")),
-          # CERP changed - add the email field below the reset request to make it more obvious
+          # does this add a new field??
           email = textInput(
             session$ns("reset_email"),
             label = RegLog_txt(lang = private$lang, custom_txts = private$custom_txts, x ="user_id")
