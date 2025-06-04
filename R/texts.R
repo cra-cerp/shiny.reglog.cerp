@@ -110,17 +110,19 @@ RegLog_txts$en = list(
   logout_success_t = "Logged out",
   logout_success_b = "You have been successfully logged out",
   ## mail labels ####
-  mail_automatic = "This message was generated automatically.",
+  mail_automatic = "This message was generated automatically. Please do not reply to this message. Contact cerp@cra.org if you need further support.",
   # reset
   reset_mail_h = "password reset code",
-  reset_mail_1 = "In order to reset your password the necessary code has been generated and is available below. Paste it into the application and reset your password.",
-  reset_mail_2 = "Reset code: ",
-  reset_mail_3 = "If you didn't generate that code, check if anyone unauthorized has access to your e-mail inbox. If not, disregard this message.",
+  reset_mail_1 = "You are receiving this email because someone has requested a password reset code for your account.",
+  reset_mail_2 = "Reset code:",
+  reset_mail_3 = "If you didn't request this reset code, please disregard this message.",
+  reset_mail_4 = "",
   # register
-  reg_mail_h = "confirmation of registration",
-  reg_mail_1 = "Thank you for registering an account in our application.",
-  reg_mail_2 = "Your user ID: ",
-  reg_mail_3 = "You can always visit our application at: ",
+  reg_mail_h = " - registration confirmation",
+  reg_mail_1 = "Thank you for registering an account on the Data Buddies Survey reports portal. If your email is in our records, you will have access to the DBS reports for your academic unit.",
+  reg_mail_2 = "An account has been registered for:",
+  reg_mail_3 = "You can visit the portal at:",
+  reg_mail_4 = "",
   # credentials edit
   crededit_mail_h = "data edit confirmation",
   crededit_mail_1 = "Credentials data has been changed for user identified by user ID:",
